@@ -1,8 +1,8 @@
 # StockClassification
 
 # Objectives
--Apply unsupervised learning algorithms to look for 'natural' stock classifications when considering various return statistics
--Compare the resulting classifications to the standard GICS sector classification
+Apply unsupervised learning algorithms to look for 'natural' stock classifications when considering various return statistics
+Compare the resulting classifications to the standard GICS sector classification
 
 # Methodology
 
@@ -27,10 +27,16 @@ These values are all scaled (centered around the mean and divided by one standar
 
 # Results
 
-Scree plot (x2) : for k-means and for h-clustering
+
+![alt text](https://github.com/ComputationalExplorer/StockClassification/blob/master/figures/comp_table_km_gics.png "k-means vs GICS")
+
 
 Comparison of the 2 sets of clusters by a confusion matrix.
 Same comparison, but with the GICS sectors (x2)
+
+
+Scree plot (x2) : for k-means and for h-clustering
+
 
 Extract the principal components using PCA, and then show the 3 classifications (k-means, hclust and GICS) by the color of the 
 We consider the results on the first and second principal components 
