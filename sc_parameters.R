@@ -1,7 +1,7 @@
 setwd('C:/Users/Admin/Documents/ComputationalExplorer/StockClassification')
 
 # Get your API key from quandl.com
-quandl_api = "PCFbavNJ5piNhxkmaNVN" # MYAPIKEY"
+quandl_api = "YourQuandlKey" # MYAPIKEY"
 
 
 # Target nb of clusters 
