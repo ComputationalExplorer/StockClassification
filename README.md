@@ -28,7 +28,8 @@ To classify the stocks, we apply 2 clustering algorithms, both based on 11 clust
 
 The distances used in the algorithms are based on the values of 13 variables :
 * 5 return distribution statistics (mean, standard deviation, Sharpe ratio, skewness and kurtosis), 
-* correlations and betas with the 4 econonomic data series 
+* correlations and betas with the 4 econonomic data series given above.
+
 These values are all scaled (centered around the mean and divided by one standard deviation) before being used in the clustering algorithms.
 
 # Results
